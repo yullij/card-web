@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sign.css">
 </head>
 
 <body>
     <!-- header -->
 <header class="header">
     <section class="flex">
-        <a href="#" class="logo"> <i class="fa-solid fa-credit-card"></i>LOGO</a>
+        <a href="/" class="logo"> <i class="fa-solid fa-credit-card"></i>LOGO</a>
         <nav class="navbar">
-            <a href="#home">Home</a> 
-            <a href="#about">About</a>
-            <a href="#option">Option</a>
-            <a href="#contact">Contact</a>
-            <a href="#blog">Blog</a>
+            <a href="/#home">Home</a> 
+            <a href="/#about">About</a>
+            <a href="/#option">Option</a>
+            <a href="/#contact">Contact</a>
+            <a href="/#blog">Blog</a>
         </nav> 
         <a href="/signin" class="btn">Sign in</a>
         <!-- 1000이하일 때 메뉴 -->
@@ -28,11 +29,23 @@
 <!-- //header --> 
 
 <!-- login -->
- <section class="signin" style="margin-top: 10rem;">
-    <div class="heading">sign <span>in</span></div>
-
-
- </section>
+ <div class="signin">
+    <section class="heading">sign <span>in</span></section>
+    <div class="signin_card">
+        <h2><span>Welcome!</span> 신한카드에 오신 것을 환영합니다.</h2>
+        <form action="">
+            <input type="text" placeholder="아이디를 입력해주세요.">
+            <input type="text" placeholder="비밀번호를 입력해주세요.">
+            <input type="submit" value="로그인">
+            <p>* 타 사이트와 비밀번호를 동일하게 사용할 경우 도용의 위험이 있으므로, 정기적인 비밀번호 변경을 해주시길 바랍니다.<br></p>
+        </form>
+        <div class="action">
+            <a href="#">회원가입</a>
+            <a href="#">아이디 찾기</a>
+            <a href="#">비밀번호 찾기</a>
+        </div>
+    </div>
+ </div>
 <!-- //login -->
 
 
